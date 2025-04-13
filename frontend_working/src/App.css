@@ -1,0 +1,16 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1 0 auto;
+  padding-bottom: 60px; /* Add some padding at the bottom to prevent content from being hidden behind the footer */
+}
+
+/* Ensure the footer stays at the bottom */
+.footer-div {
+  flex-shrink: 0;
+  margin-top: auto;
+}
